@@ -7,8 +7,9 @@
       <content-section
         title="Who am I?"
       >
-        I'm a developer born in Iran and founder of <a href="http://delix.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=delix">Delix.ir</a>, <a href="https://bytegate.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bytegate">Bytegate.ir</a> and <a href="http://bobet.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bobet">Bobet.ir</a> and co-founder of <a href="https://smo.li/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=smoli">Smo.li</a>.<br>
-        I'm interested and skilled in different topics of Information Technology including programming, web development, and computer and network security.
+        I'm a Full stack developer born in Argentina with more than 8 years of expertise in software development.<br>
+        I'm interested and skilled in different topics of Information Technology including programming, web development, DevOps operations and IOT technologies.<br>
+        I was work and developed solutions for a variety kind of areas: education, commercial and industrial/factory production systems.
       </content-section>
       <content-section
         v-if="prouds"
@@ -118,109 +119,179 @@ export default {
   data      : () => ({
     prouds: [
       {
-        icon  : 'mdi-help-rhombus-outline',
-        text  : 'Answered 10M+ questions!',
-        source: '(Bytegate.ir post views)',
+        icon  : 'mdi-leadership',
+        text  : 'Leadership software developer group on my starts',
+        source: 'ww.unl.edu.ar - UNL (Universidad nacional del litoral)',
       },
       {
-        icon  : 'mdi-library-music',
-        text  : 'Made people enjoy and learn a new language for equivalent of 29+ years (older than myself!)',
-        source: '(Bobet.ir and its channel downloads)',
+        icon  : 'mdi-software',
+        text  : 'Semi senior developer on a software factory',
+        source: 'https://www.serfe.com/en/',
       },
       {
         icon  : 'mdi-timer-sand',
-        text  : 'Saved +110 days of time of students, writers and etc!',
-        source: '(Delix.ir service usages)',
-      },
-      {
-        icon  : 'mdi-account-multiple',
-        text  : 'Tried to cover small part of 7 people expenses.',
-        source: '(My awesome colleagues)',
+        text  : 'Full stack developer and Leadership on ByS Control systems',
+        source: 'Different kind of systems for manage and control Industries',
       },
     ],
     educations: [
       {
-        from       : '2015',
-        to         : '2019 (not finished yet)',
-        title      : 'Bachelor\'s degree, Information Technology',
-        location   : 'Seraj University',
-        description: 'Became a member of University Academic Association of Computer Science',
+        from       : '2003',
+        to         : '2012',
+        title      : 'Bachelor\'s degree, Computer Science Engineering',
+        location   : 'Santa Fe, Argentina',
+        description: 'Graduated',
+      },
+      {
+        from       : '2003',
+        to         : '2012',
+        title      : 'Level VIII of English (Upper Intermeidate)',
+        location   : 'Santa Fe, Argentina',
+        description: 'Language course completed',
+      },
+      {
+        from       : '1998',
+        to         : '2002',
+        title      : 'BA with job training as an aid in business management',
+        location   : 'Entre Ríos, Argentina',
+        description: 'High School',
       },
     ],
     skills: [
+      {
+        title: 'Ruby / Ruby on Rails Framework',
+        icon : 'mdi-language-ruby',
+        value: 95,
+      },
+      {
+        title: 'JavaScript /ECS6',
+        icon : 'mdi-language-javascript',
+        value: 95,
+      },
+      {
+        title: 'Vue.js Framework',
+        icon : 'mdi-vuejs',
+        value: 100,
+      },
+      {
+        title: 'CSS / SASS / LESS',
+        icon : 'mdi-css',
+        value: 100,
+      },
+      {
+        title: 'PostrgreSQL / mysql',
+        icon : 'mdi-postgresql',
+        value: 90,
+      },
+      {
+        title: 'Redis',
+        icon : 'mdi-redis',
+        value: 30,
+      },
+      {
+        title: 'MongoDB',
+        icon : 'mdi-mongo',
+        value: 30,
+      },
       {
         title: 'PHP',
         icon : 'mdi-language-php',
         value: 95,
       },
       {
-        title: 'JavaScript',
-        icon : 'mdi-language-javascript',
-        value: 80,
-      },
-      {
-        title: 'Laravel Framework',
-        icon : 'mdi-laravel',
+        title: 'CakePHP Framework',
+        icon : 'mdi-cake-php',
         value: 90,
       },
       {
-        title: 'Vue.js Framework',
-        icon : 'mdi-vuejs',
+        title: 'Drupal',
+        icon : 'mdi-drupal',
+        value: 20,
+      },
+      {
+        title: 'C/C++',
+        icon : 'mdi-language-cpp',
+        value: 75,
+      },
+      { divider: true },
+      {
+        title: 'Grafana',
+        icon : 'mdi-grafana',
+        value: 90,
+      },
+      {
+        title: 'Prometheus',
+        icon : 'mdi-language-prometheus',
+        value: 90,
+      },
+      {
+        title: 'Alert manager',
+        icon : 'mdi-alertmanager',
         value: 90,
       },
       { divider: true },
       {
         title: 'Ubuntu Server',
         icon : 'mdi-ubuntu',
-        value: 70,
+        value: 75,
       },
       {
-        title: 'CentOS Server',
+        title: 'Linux',
         icon : 'mdi-linux',
-        value: 47,
+        value: 95,
+      },
+      {
+        title: 'Bash / Scripting',
+        icon : 'mdi-bash',
+        value: 75,
       },
       {
         title: 'Web Application Security',
         icon : 'mdi-shield-lock',
         value: 80,
       },
-      {
+      /*      {
         title: 'Test Driven Development',
         icon : 'mdi-test-tube',
         value: 26,
-      },
+      }, */
       {
         title: 'Continuous Integration / Continuous Delivery',
         icon : 'mdi-truck-fast',
-        value: 35,
+        value: 50,
       },
       {
         title: 'Git',
         icon : 'mdi-git',
-        value: 67,
+        value: 80,
+      },
+      {
+        title: 'Docker',
+        icon : 'mdi-docker',
+        value: 90,
+      },
+      {
+        title: 'Docker compose',
+        icon : 'mdi-docker-compose',
+        value: 90,
       },
       { divider: true },
-      {
+      /* {
         title: 'Hardware Development',
         icon : 'mdi-chip',
         value: 29,
-      },
-      {
-        title: 'C/C++',
-        icon : 'mdi-language-cpp',
-        value: 38,
-      },
+      }, */
       { divider: true },
       {
         title: 'Leadership',
         icon : 'mdi-account-group',
-        value: 68,
+        value: 50,
       },
-      {
+      /* {
         title: 'Content Marketing (+340 articles)',
         icon : 'mdi-text',
         value: 96,
-      },
+      }, */
     ],
   }),
 }

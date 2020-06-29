@@ -446,22 +446,19 @@ export default {
         icon : 'mdi-github-circle',
       },
       {
-        year : '2019',
-        title: 'Published Vue Registrar Package',
+        year : '2017',
+        title: 'Published Vue tooltipster Package',
         html : `
           <p>
-              Current status: <span class="light-blue--text lighten-3">Published</span><br>Available on: <a target="_blank" href="https://github.com/AmirrezaNasiri/vue-registrar">AmirrezaNasiri/vue-registrar</a>
+              Current status: <span class="light-blue--text lighten-3">Published</span><br>Available on: <a target="_blank" href="https://github.com/cpfarher/vue-tooltipster">cpfarher/vue-tooltipster</a> and
+              <a target="_blank" href="https://www.npmjs.com/package/vue-tooltipster">NPM cpfarher</a>
           </p>
           <p>
-            A Vue.js package that makes developers' code a lot cleaner and much more understandable. It's consisted of two features that:
-            <ul>
-                <li>Registers all your common and frequently used components globally and ends the need for importing them manually;</li>
-                <li>Assembles all your vuex modules in a nested manner.</li>
-            </ul>
+            A Vue.js package based on tooltipster.js. It's support html content, hover and click events.
           </p>
         `,
-        image    : 'img/timeline/vue-registrar-demo.png',
-        iconImage: 'img/timeline/vue-registrar-logo.png',
+        image: 'img/timeline/vue-registrar-demo.png',
+        // iconImage: 'img/timeline/vue-registrar-logo.png',
       },
       {
         year : 'So far ...',

@@ -7,10 +7,10 @@
       <avatar />
       <div class="text-sm-center mb-4 mt-3">
         <h1>
-          Amirreza <span class="light-blue--text text--lighten-3">Nasiri</span>
+          Christian <span class="light-blue--text text--lighten-3">Pfarher</span>
         </h1>
         <span>
-          A challenge-loving web developer
+          A challenge-loving FullStack software developer
         </span>
       </div>
 
@@ -79,22 +79,22 @@ export default {
             {
               name: 'Email',
               icon: 'mdi-email',
-              text: 'hi@amirreza.in',
+              text: 'c.pfarher@gmail.com',
             },
-            {
+            /* {
               name: 'Website',
               icon: 'mdi-web',
               text: 'amirreza.in',
-            },
+            }, */
             {
               name: 'Birth Date',
               icon: 'mdi-cake-variant',
-              text: 'Dec 7, 1996',
+              text: 'May 31, 1985',
             },
             {
               name: 'Habitation',
               icon: 'mdi-map-marker',
-              text: 'Tabriz, Iran',
+              text: 'Crespo, Entre Ríos, Argentina',
             },
           ],
         },
@@ -103,24 +103,24 @@ export default {
           items: [
             {
               icon: 'mdi-github-circle',
-              text: 'github.com/AmirrezaNasiri',
-              link: 'https://github.com/AmirrezaNasiri',
+              text: 'github.com/cpfarher',
+              link: 'https://github.com/cpfarher',
             },
             {
               icon: 'mdi-linkedin-box',
-              text: 'linkedin.com/in/amirreza-nasiri',
-              link: 'https://linkedin.com/in/amirreza-nasiri',
+              text: 'linkedin.com/in/christian-pfarher',
+              link: 'https://www.linkedin.com/in/christian-pfarher',
             },
             {
               icon: 'mdi-twitter',
-              text: 'twitter.com/Amirreza_Nasiri',
-              link: 'https://twitter.com/Amirreza_Nasiri',
-            },
+              text: 'twitter.com/cpfarherIT',
+              link: 'https://twitter.com/cpfarherIT',
+            }, /*,
             {
               icon: 'mdi-instagram',
-              text: 'instagram.com/amirreza.n96',
-              link: 'https://instagram.com/amirreza.n96',
-            },
+              text: 'instagram.com/cpfarher',
+              link: 'https://instagram.com/cpfarher',
+            }, */
           ],
         },
         hobbies: {
@@ -132,8 +132,8 @@ export default {
               text: 'Getting out of Safe Zone',
             },
             {
-              icon: 'mdi-biohazard',
-              text: 'Challenges',
+              icon: 'mdi-book-open-variant',
+              text: 'Learning',
             },
             {
               icon: 'mdi-bike',
@@ -147,12 +147,12 @@ export default {
               icon: 'mdi-auto-fix',
               text: 'Hacking Stuffs',
             },
-            {
+            /* {
               icon: 'mdi-teach',
               text: 'Teaching',
-            },
+            }, */
             {
-              icon: 'mdi-karate',
+              icon: 'mdi-basketball',
               text: 'Sports',
             },
             {
@@ -163,33 +163,33 @@ export default {
               icon: 'mdi-account-group',
               text: 'Leadership',
             },
-            {
+            /* {
               icon: 'mdi-book-open-page-variant',
               text: 'Books',
-            },
-            {
+            }, */
+            /* {
               icon: 'mdi-android-debug-bridge',
               text: 'Tickling Bugs!',
-            },
+            }, */
           ],
         },
         languages: {
           title: 'LANGUAGES',
           items: [
             {
-              text : 'English',
+              text : 'Read English',
+              value: 85,
+            },
+            {
+              text : 'Write English',
               value: 70,
             },
             {
-              text : 'Turkish',
-              value: 45,
+              text : 'Speak English',
+              value: 50,
             },
             {
-              text : 'Azeri',
-              value: 100,
-            },
-            {
-              text : 'Persian',
+              text : 'Spanish (Native)',
               value: 100,
             },
           ],

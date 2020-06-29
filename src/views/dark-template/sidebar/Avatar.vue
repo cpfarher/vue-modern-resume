@@ -5,8 +5,8 @@
       size="120"
     >
       <img
-        :src="publicPath('/img/avatar.jpg')"
-        alt="Amirrea Nasiri"
+        :src="publicPath('/img/avatar.png')"
+        alt="Christian Pfarher"
       >
     </v-avatar>
   </div>
