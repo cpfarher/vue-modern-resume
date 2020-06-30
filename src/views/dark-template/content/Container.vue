@@ -161,12 +161,12 @@ export default {
       {
         title: 'Ruby / Ruby on Rails Framework',
         icon : 'mdi-language-ruby',
-        value: 95,
+        value: 100,
       },
       {
         title: 'JavaScript /ECS6',
         icon : 'mdi-language-javascript',
-        value: 95,
+        value: 100,
       },
       {
         title: 'Vue.js Framework',
@@ -181,7 +181,7 @@ export default {
       {
         title: 'PostrgreSQL / mysql',
         icon : 'mdi-postgresql',
-        value: 90,
+        value: 85,
       },
       {
         title: 'Redis',
@@ -233,7 +233,7 @@ export default {
       {
         title: 'Ubuntu Server',
         icon : 'mdi-ubuntu',
-        value: 75,
+        value: 80,
       },
       {
         title: 'Linux',
@@ -245,10 +245,25 @@ export default {
         icon : 'mdi-bash',
         value: 75,
       },
-      {
+      /* {
         title: 'Web Application Security',
         icon : 'mdi-shield-lock',
         value: 80,
+      }, */
+      {
+        title: 'Nginx',
+        icon : 'mdi-nginx',
+        value: 70,
+      },
+      {
+        title: 'Apache',
+        icon : 'mdi-apache',
+        value: 70,
+      },
+      {
+        title: 'Passenger',
+        icon : 'mdi-passenger',
+        value: 70,
       },
       /*      {
         title: 'Test Driven Development',
@@ -258,7 +273,7 @@ export default {
       {
         title: 'Continuous Integration / Continuous Delivery',
         icon : 'mdi-truck-fast',
-        value: 50,
+        value: 60,
       },
       {
         title: 'Git',
@@ -285,7 +300,7 @@ export default {
       {
         title: 'Leadership',
         icon : 'mdi-account-group',
-        value: 50,
+        value: 70,
       },
       /* {
         title: 'Content Marketing (+340 articles)',

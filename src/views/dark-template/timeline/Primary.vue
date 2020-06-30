@@ -6,15 +6,15 @@
     <v-card-text>
       <content-section
         id="timeline"
-        :title="detailed ? 'My Life in a Nutshell' : 'My Experiences'"
+        :title="detailed ? 'My Experiences' : 'My Life in a Nutshell'"
       >
         <template slot="actions">
-          <div>
+          <!--<div>
             <v-switch
               v-model="detailed"
               :label="detailed ? 'Detailed' : 'Summary'"
             />
-          </div>
+          </div>-->
         </template>
 
         <v-timeline
@@ -130,62 +130,45 @@ export default {
       {
         detailed   : true,
         transparent: true,
-        year       : '1996',
-        title      : 'Born on Dec 7, 1996',
-        html       : 'With a chance of %0.00000000000512.<br>I\'m completely aware of value of the life!',
-        icon       : 'mdi-cake-variant',
+        year       : '2002',
+        title      : 'Internship at the local newspapaer "El observador del litoral"',
+        html       : 'Realization of different activities such as typing and staging of texts, updating and maintenance of computers, armed with newspaper ads and layout, among others.',
+        icon       : 'mdi-news',
       },
       {
         detailed   : true,
         transparent: true,
-        year       : '2003',
-        title      : 'Touched a Mouse',
-        html       : 'ME: "Woooow!"<br><i>... Of course got slapped later!</i>',
-        icon       : 'mdi-mouse-variant',
+        year       : '2007-2008',
+        title      : 'Internship through UNL - Centro de idiomas',
+        html       : 'Technical support and maintenance of equipment. Manager computer LAB',
+        icon       : 'mdi-computer',
       },
       {
         detailed   : true,
-        year       : '2009',
+        year       : '2007-2010',
         transparent: true,
-        title      : 'Started an7.mahblog.com',
+        title      : 'Web site administrator and software development',
         html       : `
                 <p>
-                    I'm still emotional about this one. It was August 9, 2009 that I decided to start blogging so <a target="_blank" href="https://web.archive.org/web/20090819185659/http://an7.mahblog.com/">an7.mahblog.com</a> has just showed up! Years later, Mahblog.com got censored in Iran and my blog disappeared. <a target="_blank" href="https://web.archive.org/web/20120626234739/http://www.an7.mahblog.com/">Last archived page</a> was on June 26, 2012.
-                </p>
-                <p>
-                    Back then, my blog used to get more than 500 visitors/day and its Page Rank has reached to level 2 which was actually great! Rest In Peace an7 ...
-                </p>
-                <p>
-                    During 2009 - 2011, many other blogs has been created too. For example:
+                    From 2007 to 2010 I was working and maintained two web pages sites:
                     <ul>
-                        <li>
-                            <a href="https://web.archive.org/web/20100926063748/http://bro2gifs.mihanblog.com/post/5">bro2gifs.mihanblog.com</a> - we were receiving banner designing orders there!
-                        </li>
-                        <li>
-                            <a href="https://web.archive.org/web/20101203082548/http://kdabs.mihanblog.com/">kdabs.mihanblog.com</a> - we were publishing audio books there
-                        </li>
-                        <li>
-                            <a href="http://web.archive.org/web/20100909150338/http://best1shops.mihanblog.com/">best1shops.mihanblog.com</a> - it was our first online shop and we got our first income from there. The feeling of that moment was awesome!
-                        </li>
-                        <li>
-                            And many other blogs I can't really remember!
-                        </li>
-                    </ul>
+                      <li><strong>CELU</strong> that depend of International Relationship Secreatry of Universidad Nacional del Litoral (Santa Fe, Argentina)</li>
+                      <li><strong>Argies Inc.</strong>, - Asociación de Argentinos en nueva Inglaterra Inc. <a href="http://argies.org/">thtp://argies.org/</a></li>
+                    <ul> 
+                    <p>Some of the technologies used on this site are: PHP, HTML, Css, js, mysql.</p>
                 </p>
         `,
-        image      : 'img/timeline/an7.mahblog.com.png',
-        imageHeight: 200,
-        icon       : 'mdi-web',
+        icon: 'mdi-web',
       },
       {
         detailed   : true,
-        year       : '2009',
-        transparent: true,
-        title      : 'Created Almas-Khor Game',
-        html       : 'A simple (yet almost unbeatable!) game made with Game Maker. It\'s still available for <a target="_blank" href="https://download.tebyan.net/2687/%D8%A8%D8%A7%D8%B2%DB%8C-%D8%A7%D9%84%D9%85%D8%A7%D8%B3-%D8%AE%D9%88%D8%B1">download here</a>!<br>The reason this game is pretty important for me is that it was my first published program!',
-        image      : 'img/timeline/almas-khor.jpg',
-        iconImage  : 'img/timeline/almas-khor-icon.png',
+        year       : '2010-2012',
+        transparent: false,
+        title      : 'Semi senior developer at SERFE',
+        html       : 'I worked as semi senior developer on a software factory: <a target="_blank" href="https://www.serfe.com/en/">Serfe</a>. I participated in different kind of projects with a variety of technologies. <p>One of the most biggets project for an international client was a site for organize conferences (<a target="_blank" href="http://www.allconferences.com/">Allconferences</a>). Also, I was working on an internal project: a joomla plugin <a href="https://www.serfe.com/en/tags/blog/jreserv">Jreserve</a>. </p><p>We use SCRUM method development and differnet types of technologies: CakePHP, PHP, AJAX, JQuery, APACHE, BD:MySql, SubVersion Control System (SVN), Mantis Sytem Tracker, etc.</p>',
+        icon       : 'mdi-web',
       },
+      /*
       {
         detailed   : true,
         year       : '2011',
@@ -240,14 +223,14 @@ export default {
                    </p>`,
         image    : 'img/timeline/bytegate.ir.jpg',
         iconImage: 'img/timeline/bytegate.ir-icon.png',
-      },
-      {
+      }, */
+      /* {
         detailed   : true,
         year       : '2014-15',
         transparent: true,
-        title      : 'Created a Captcha Solving Farm',
-        /* eslint-disable no-useless-escape */
-        html       : `
+        title      : 'Created a Captcha Solving Farm', */
+      /* eslint-disable no-useless-escape */
+      /* html       : `
                 <p>
                     I was inspired by a blog post about captcha solving techniques and made my own captcha solving farm and built some basic APIs for <span style="background-color: #d1d1d1;">/(bad)?/g</span> guys to use it.
                 </p>
@@ -256,9 +239,9 @@ export default {
                 </p>
                 `,
         /* eslint-enable no-useless-escape */
-        icon: 'mdi-worker',
-      },
-      {
+      /* icon: 'mdi-worker',
+      }, */
+      /* {
         year       : '2015',
         transparent: true,
         title      : 'Created WifiShield',
@@ -444,9 +427,80 @@ export default {
         `,
         image: 'img/timeline/vue-modern-resume.png',
         icon : 'mdi-github-circle',
+      }, */
+      {
+        year       : '2011-2015',
+        detailed   : true,
+        transparent: false,
+        title      : 'Project leader at Univesidad Nacional del Litoral',
+        html       : `
+          <p>
+            I was in charge of carrying out two projects and maintaining various web applications.
+          </p>
+          <p>
+            As a Leader Team, I manage, assign tasks and couche two developers to carry out projects. I was also in charge of re-raising the requirements.
+          </p>
+          
+          <p>The first project was an institutional site of the <a target="_blank" href="https://www.unl.edu.ar/">Universidad Nacional del litoral</a>. The website was completely developed and redesigned. One challenge was the back end since it had integrations with different applications from the diffents academic units that make up the institution. Some applications were updated and others consumed by APIs to speed up development.</p>
+          <p>Another big challenge was a designer that has been programmed to customize the front end page dynamically by dragging and dropping with customizable widgets. A cache system was also implemented to optimize speed. </p>
+          <br/>
+          <p>The second biggest project was the "media site" (<span class="green--text">still online</span>): <a target="_blank" https://www.unl.edu.ar/noticias/>Unl noticias</a>. A back-end system was developed to share and compare news and notes for users from different areas, as well as to create and send personalized newsletters in the mailchimp style. A fairly complex system for sharing / comparing and appropriating notes for multi users and multi permissions was created. 
+          <p>We implement google analytics and addthis for tracking users and social network activity.</p>
+          <p>It was a great challenge that I am proud to have accomplished.</p>`,
+        // iconImage: 'img/timeline/vue-registrar-logo.png',
       },
       {
-        year : '2017',
+        year       : '2017',
+        title      : 'Published Vue tooltipster Package',
+        detailed   : true,
+        transparent: false,
+        html       : `
+          <p>
+              Current status: <span class="light-blue--text lighten-3">Published</span> (<span class="red--text lighten-3">Unmantained</span>)<br>Available on: <a target="_blank" href="https://github.com/cpfarher/vue-tooltipster">cpfarher/vue-tooltipster</a> and
+              <a target="_blank" href="https://www.npmjs.com/package/vue-tooltipster">NPM cpfarher</a>
+          </p>
+          <p>
+            A Vue.js package based on tooltipster.js. It was developed for use on some specific projects. It's support html content, hover and click events.<p>It was unmantained a few years ago because there are a lot of other options more complete.</p>
+          </p>
+        `,
+        image: 'img/timeline/cpfarher/tooltipster.png',
+        // iconImage: 'img/timeline/vue-registrar-logo.png',
+      },
+      {
+        year       : '2014-now',
+        title      : 'Computer Science Engineer at B&S Control Systems',
+        detailed   : true,
+        transparent: false,
+        html       : `
+          <p>
+              My main functionality is to apply engineering to solve problems in industries. I have made a large number of web systems for industrial control and QA.
+          </p>
+          <p>Most of the systems were programmed in Ruby with Ruby on Rails. I have developed many systems:
+          </p>
+          <h4>Internal projects</h4>
+          <ul>
+            <li><strong>ERP: </strong>Internal ERP for accounting management, order tracking, stock management, project management, travel and employee hours worked, among other functionalities.</li>
+            <li><strong>Web Programmer Configurator: </strong>A parser of CSV that generate code for the base of plc programming Somachine Schneider Electric Software.</li>
+            <li><strong>Web Modubs configuration tool: </strong>A Modus web configuration tool for control and communicate with specific designed hardware.</li>
+            <li><strong>Web Framework SCADA: </strong>A web framework that allow to build SCADA and HMI systems.</li>
+          </ul>
+          
+          <h4>External projects (for clients)</h4>
+          
+          <ul>
+            <li>Implementations with the web Framework developed for a variety of industries</li>
+            <li>A system for track and control trucks in food industries</li>
+            <li>A web control and automatic report system for food industries (customs PDF reports)</li>
+            <li>A web syste for control an manage production in poultry industries</li>
+          </ul>
+
+          
+        `,
+        // image: 'img/timeline/cpfarher/tooltipster.png',
+        // iconImage: 'img/timeline/vue-registrar-logo.png',
+      },
+      /* {
+        year : '2019',
         title: 'Published Vue tooltipster Package',
         html : `
           <p>
@@ -454,19 +508,20 @@ export default {
               <a target="_blank" href="https://www.npmjs.com/package/vue-tooltipster">NPM cpfarher</a>
           </p>
           <p>
-            A Vue.js package based on tooltipster.js. It's support html content, hover and click events.
+            A Vue.js package based on tooltipster.js. I was developed for use on internal projects. It's support html content, hover and click events.
           </p>
         `,
-        image: 'img/timeline/vue-registrar-demo.png',
+        image: 'img/timeline/cpfarher/tooltipster.png',
         // iconImage: 'img/timeline/vue-registrar-logo.png',
-      },
-      {
+      }, */
+
+      /* {
         year : 'So far ...',
         title: 'Written 340+ Unique Articles!',
         html : `I'm the guy who loves teaching! So far, I've written 340+ unique articles which most of them are computer-related. You can access them here:
                     <ul><li><a target="_blank" href="https://bytegate.ir/author/amirrezanasiri/">My posts on Bytegate.ir</a> (260+ Computer-related)</li><li><a target="_blank" href="http://bobet.ir/author/amirrezanasiri/">My posts on Bobet.ir</a> (80+ translations)</li></ul>`,
         icon: 'mdi-fountain-pen-tip',
-      },
+      }, */
     ],
   }),
   computed: {
