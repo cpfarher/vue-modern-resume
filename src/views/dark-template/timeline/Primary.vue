@@ -477,21 +477,21 @@ export default {
           </p>
           <p>Most of the systems were programmed in Ruby with Ruby on Rails. I have developed many systems:
           </p>
-          <h4>Internal projects</h4>
+          <h4>Most importante Internal projects</h4>
           <ul>
-            <li><strong>ERP: </strong>Internal ERP for accounting management, order tracking, stock management, project management, travel and employee hours worked, among other functionalities.</li>
+            <li><strong>ERP: </strong>Internal ERP for accounting management, order tracking, stock management, project management, travel and employee hours worked, api integrations with toggle, among other functionalities.</li>
             <li><strong>Web Programmer Configurator: </strong>A parser of CSV that generate code for the base of plc programming Somachine Schneider Electric Software.</li>
             <li><strong>Web Modubs configuration tool: </strong>A Modus web configuration tool for control and communicate with specific designed hardware.</li>
             <li><strong>Web Framework SCADA: </strong>A web framework that allow to build SCADA and HMI systems.</li>
           </ul>
-          
-          <h4>External projects (for clients)</h4>
+          <br/>
+          <h4>Most important External projects (for clients)</h4>
           
           <ul>
             <li>Implementations with the web Framework developed for a variety of industries</li>
             <li>A system for track and control trucks in food industries</li>
-            <li>A web control and automatic report system for food industries (customs PDF reports)</li>
-            <li>A web syste for control an manage production in poultry industries</li>
+            <li>A web control for manage, track and analyze production with automatic report system for food industries (customs PDF reports)</li>
+            <li>A web system for control an manage production in poultry industries</li>
           </ul>
 
           

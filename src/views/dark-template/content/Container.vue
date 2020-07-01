@@ -7,9 +7,16 @@
       <content-section
         title="Who am I?"
       >
-        I'm a Full stack developer born in Argentina with more than 8 years of expertise in software development.<br>
-        I'm interested and skilled in different topics of Information Technology including programming, web development, DevOps operations and IOT technologies.<br>
-        I was work and developed solutions for a variety kind of areas: education, commercial and industrial/factory production systems.
+        I'm a <strong>Full stack Ruby/Ruby on Rails professional developer</strong> born in Argentina with +10 years of expertise in software development.
+        Day by day, I try to challenge my self studying the latest technologies and continually improving my skills for get the success on different projects and with teams that I'm part of.
+        <br><br>
+        As <strong>Engineer</strong> I have the capacity for get efficciently solutions for a variety of problems.
+        Throughout my professional career I was work and have developed solutions for different areas such as education, commercial and industrial/factory prduction systems, focusing on providing solutions to end users.<br>
+        <br>
+        Because I am a full stack developer, I have solid familiarity with all layers of the web stack and capabilities to deploy web systems. On the last 6 year I was working on back end and front end providing professional solutions mainly with <strong>Ruby and Ruby on Rails</strong> and also I do task's of <strong>Devops</strong>.<br>
+        <br>
+        <i>I have focused on carrying out web projects no only with Ruby / Ruby on Rails, also I have a lot of experience with JS and VueJS, and obviously HTMl and css as the main core tools. As part of the development the gems of ruby, npm, webpack, socket io, personalized APIs among other technologies have become part of the base of many projects that I developed.<br>
+          On my working day linux and tools like git, shell, docker and git ci/cd integration are part of my work life.</i>
       </content-section>
       <content-section
         v-if="prouds"
@@ -60,8 +67,13 @@
           </v-flex>
         </v-layout>
       </content-section>
+      <v-switch
+        v-model="skillsShowed"
+        :label="skillsShowed ? 'Hide Skills' : 'Show detailed skills'"
+        class="pull-right"
+      />
       <content-section
-        v-if="skills"
+        v-if="skills && skillsShowed"
         id="to-timeline"
         title="Skills"
       >
@@ -117,7 +129,8 @@ export default {
   name      : 'MainContent',
   components: { ContentSection },
   data      : () => ({
-    prouds: [
+    skillsShowed: false,
+    prouds      : [
       {
         icon  : 'mdi-leadership',
         text  : 'Leadership software developer group on my starts',
@@ -130,14 +143,14 @@ export default {
       },
       {
         icon  : 'mdi-timer-sand',
-        text  : 'Full stack developer and Leadership on ByS Control systems',
+        text  : 'Full stack Ruby developer and Leadership on ByS Control systems',
         source: 'Different kind of systems for manage and control Industries',
       },
     ],
     educations: [
       {
         from       : '2003',
-        to         : '2012',
+        to         : '2013',
         title      : 'Bachelor\'s degree, Computer Science Engineering',
         location   : 'Santa Fe, Argentina',
         description: 'Graduated',
