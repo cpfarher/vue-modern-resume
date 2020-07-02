@@ -7,16 +7,14 @@
       <content-section
         title="Who am I?"
       >
-        I'm a <strong>Full stack Ruby/Ruby on Rails professional developer</strong> born in Argentina with +10 years of expertise in software development.
-        Day by day, I try to challenge my self studying the latest technologies and continually improving my skills for get the success on different projects and with teams that I'm part of.
+        I'm a <strong>Full stack Ruby/Ruby on Rails</strong> professional developer born in Argentina and I have 10+ years of expertise in software development. I like to challenge myself on a daily basis. Being resourceful is one of my main characteristics as I self-study the latest technologies and continuously improve my skills to succeed as a team member on different projects.
         <br><br>
-        As <strong>Engineer</strong> I have the capacity for get efficciently solutions for a variety of problems.
-        Throughout my professional career I was work and have developed solutions for different areas such as education, commercial and industrial/factory prduction systems, focusing on providing solutions to end users.<br>
-        <br>
-        Because I am a full stack developer, I have solid familiarity with all layers of the web stack and capabilities to deploy web systems. On the last 6 year I was working on back end and front end providing professional solutions mainly with <strong>Ruby and Ruby on Rails</strong> and also I do task's of <strong>Devops</strong>.<br>
-        <br>
-        <i>I have focused on carrying out web projects no only with Ruby / Ruby on Rails, also I have a lot of experience with JS and VueJS, and obviously HTMl and css as the main core tools. As part of the development the gems of ruby, npm, webpack, socket io, personalized APIs among other technologies have become part of the base of many projects that I developed.<br>
-          On my working day linux and tools like git, shell, docker and git ci/cd integration are part of my work life.</i>
+        As an <strong>Engineer</strong>, I’m very efficient to find solutions to a variety of problems. Throughout my professional career, I have worked and developed solutions to issues on different areas; such as, education, commercial and industrial/factory production systems where I focused mainly on resolving problems and providing solutions to end users.
+        <br><br>
+        As a full stack developer, I have solid familiarity with all layers of the web stack and capabilities to deploy web systems. Over the last 6 years, I have worked on back end and front end providing professional assistance mainly with <strong>Ruby and Ruby on Rails</strong> as well as <strong>DevOps tasks</strong>.
+        <br><br>
+        <i>I have also  focused on carrying out web projects not only with Ruby/Ruby on Rails, but also I have a lot of experience with JS and VueJS, HTML and css as the main core tools. As part of the development, the gems of ruby, npm, webpack, socket io, personalized APIs among other technologies have become part of the base of many projects that I successfully developed.
+          On a daily basis, linux and tools like git, shell, docker and git ci/cd integration are part of my work life.</i>
       </content-section>
       <content-section
         v-if="prouds"
@@ -129,7 +127,7 @@ export default {
   name      : 'MainContent',
   components: { ContentSection },
   data      : () => ({
-    skillsShowed: false,
+    skillsShowed: true,
     prouds      : [
       {
         icon  : 'mdi-leadership',

@@ -9,6 +9,7 @@
         <h1>
           Christian <span class="light-blue--text text--lighten-3">Pfarher</span>
         </h1>
+        <div>Engineer</div>
         <span>
           A challenge-loving FullStack software developer
         </span>
